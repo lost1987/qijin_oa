@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-06-03 10:02:03
+<?php /* Smarty version Smarty-3.1.13, created on 2013-06-03 13:56:04
          compiled from "oa_app/views/public/sidebar.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:146676647751abf91b5f8da8-93797997%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:8478587751ac2ff47b28b5-61023969%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '146676647751abf91b5f8da8-93797997',
+  'nocache_hash' => '8478587751ac2ff47b28b5-61023969',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51abf91b5fde84_00176623',
+  'unifunc' => 'content_51ac2ff47b7c82_34673402',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51abf91b5fde84_00176623')) {function content_51abf91b5fde84_00176623($_smarty_tpl) {?><div class="sidebar">
+<?php if ($_valid && !is_callable('content_51ac2ff47b7c82_34673402')) {function content_51ac2ff47b7c82_34673402($_smarty_tpl) {?><div class="sidebar">
     <div class="logo">
         <h1><a href="<?php echo site_url(array(),$_smarty_tpl);?>
 " title="返回首页"><span class="hide">齐进网络</span></a></h1>

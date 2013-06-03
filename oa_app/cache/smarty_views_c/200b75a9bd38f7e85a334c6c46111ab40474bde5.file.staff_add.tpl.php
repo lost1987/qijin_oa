@@ -1,29 +1,31 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-06-03 09:57:56
+<?php /* Smarty version Smarty-3.1.13, created on 2013-06-03 13:56:04
          compiled from "oa_app/views/hr/staff_add.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:4550625751abf82465a397-07521382%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:175270354151ac2ff4778046-21225860%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '200b75a9bd38f7e85a334c6c46111ab40474bde5' => 
     array (
       0 => 'oa_app/views/hr/staff_add.tpl',
-      1 => 1369029270,
+      1 => 1370231780,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '4550625751abf82465a397-07521382',
+  'nocache_hash' => '175270354151ac2ff4778046-21225860',
   'function' => 
   array (
   ),
   'variables' => 
   array (
     'educational_background_select' => 0,
+    'departments' => 0,
+    'element' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51abf824677df9_74862052',
+  'unifunc' => 'content_51ac2ff47a13c6_37504568',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51abf824677df9_74862052')) {function content_51abf824677df9_74862052($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("public/head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+<?php if ($_valid && !is_callable('content_51ac2ff47a13c6_37504568')) {function content_51ac2ff47a13c6_37504568($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("public/head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
 <div class="warp">
 <?php echo $_smarty_tpl->getSubTemplate ("public/sidebar.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
@@ -97,6 +99,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     <p>
                         <label for="position">部　　门：</label>
                         <select id="position" name="position">
+                            <?php  $_smarty_tpl->tpl_vars['element'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['element']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['departments']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['element']->key => $_smarty_tpl->tpl_vars['element']->value){
+$_smarty_tpl->tpl_vars['element']->_loop = true;
+?>
+                                <option value="<?php echo $_smarty_tpl->tpl_vars['element']->value['uid'];?>
+"><?php echo $_smarty_tpl->tpl_vars['element']->value['name'];?>
+</option>
+                            <?php } ?>
                         </select>
                     </p>
                     <p>

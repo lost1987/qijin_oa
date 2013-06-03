@@ -66,6 +66,9 @@
                     <p>
                         <label for="position">部　　门：</label>
                         <select id="position" name="position">
+                            {foreach from=$departments item = element}
+                                <option value="{$element.uid}">{$element.name}</option>
+                            {/foreach}
                         </select>
                     </p>
                     <p>

@@ -64,7 +64,91 @@
     <favorites_list name="oa" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="site_config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_app/config/site_config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="67" column="4" selection-start="2191" selection-end="2191" vertical-scroll-proportion="-14.541667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hr.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_app/controllers/hr.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="65" selection-start="728" selection-end="728" vertical-scroll-proportion="-15.583333">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common_helper.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_app/helpers/common_helper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="402" column="20" selection-start="11071" selection-end="11071" vertical-scroll-proportion="-6.0416665">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="0" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="staff.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/inc/js/staff.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.5935919">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.validationEngine.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/js/jQuery-Validation-Engine/jquery.validationEngine.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="35" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="staff_add.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_app/views/hr/staff_add.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="28" selection-start="449" selection-end="453" vertical-scroll-proportion="0.9166667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model_hr.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_app/models/model_hr.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="167" column="23" selection-start="5751" selection-end="5751" vertical-scroll-proportion="-149.66667">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_app/controllers/my.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="-2.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -74,15 +158,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/inc/js/common.js" />
-        <option value="$PROJECT_DIR$/inc/js/hr.js" />
-        <option value="$PROJECT_DIR$/oa_app/views/hr/staff.tpl" />
-        <option value="$PROJECT_DIR$/oa_app/config/css_javascript.php" />
-        <option value="$PROJECT_DIR$/oa_app/helpers/common_helper.php" />
         <option value="$PROJECT_DIR$/oa_app/views/hr/staff_edit.tpl" />
-        <option value="$PROJECT_DIR$/oa_app/models/model_hr.php" />
         <option value="$PROJECT_DIR$/oa_app/controllers/index.php" />
-        <option value="$PROJECT_DIR$/oa_app/controllers/hr.php" />
         <option value="$USER_HOME$/test.php" />
         <option value="$USER_HOME$/Desktop/oa.sql" />
         <option value="$USER_HOME$/Desktop/qijinsoft_oa_ucenter.sql" />
@@ -90,6 +167,13 @@
         <option value="$PROJECT_DIR$/oa_app/config/config.php" />
         <option value="$PROJECT_DIR$/oa_app/config/database.php" />
         <option value="$PROJECT_DIR$/config.inc.php" />
+        <option value="$PROJECT_DIR$/oa_app/models/model_hr.php" />
+        <option value="$PROJECT_DIR$/oa_app/views/hr/staff_add.tpl" />
+        <option value="$PROJECT_DIR$/oa_app/config/site_config.php" />
+        <option value="$PROJECT_DIR$/oa_app/controllers/hr.php" />
+        <option value="$PROJECT_DIR$/inc/js/jQueryUI/zh_cn/datepicker.js" />
+        <option value="$PROJECT_DIR$/inc/js/common.js" />
+        <option value="$PROJECT_DIR$/inc/js/staff.js" />
       </list>
     </option>
   </component>
@@ -166,6 +250,154 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jQuery-Validation-Engine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -184,11 +416,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/inc/js/jQueryUI" />
       <recent name="$PROJECT_DIR$/oa_app/views/pc" />
       <recent name="$PROJECT_DIR$/oa_app/views/food" />
       <recent name="$PROJECT_DIR$/oa_app/views/hr" />
       <recent name="$PROJECT_DIR$/oa_app/views/public" />
-      <recent name="$PROJECT_DIR$/oa_app/core" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/inc/js/jQuery" />
@@ -269,13 +501,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="69" width="1390" height="763" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14222223" sideWeight="0.6704" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17113096" sideWeight="0.9966997" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17113096" sideWeight="0.9966997" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -343,77 +575,23 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config.inc.php">
+    <entry file="file://$PROJECT_DIR$/oa_app/views/public/menu.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="194" selection-end="194" vertical-scroll-proportion="0.23076923" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/models/model_hr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="34" selection-start="371" selection-end="371" vertical-scroll-proportion="-3.9166667">
+        <state line="7" column="45" selection-start="464" selection-end="467" vertical-scroll-proportion="-6.4166665">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/config/user_agents.php">
+    <entry file="file://$PROJECT_DIR$/oa_app/helpers/menu_helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="519" selection-end="519" vertical-scroll-proportion="0.40947548">
+        <state line="3" column="27" selection-start="125" selection-end="140" vertical-scroll-proportion="-2.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/models/model_power.php">
+    <entry file="file://$PROJECT_DIR$/oa_app/views/public/head.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="5" selection-start="114" selection-end="114" vertical-scroll-proportion="-3.6666667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/config/site_config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="31" selection-start="1769" selection-end="1779" vertical-scroll-proportion="1.749577">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/controllers/hr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="0" selection-start="4812" selection-end="4812" vertical-scroll-proportion="-8.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/controllers/power.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="67.041664">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/controllers/my.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/controllers/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="329" selection-end="329" vertical-scroll-proportion="-11.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/views/food/food_cost.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="94" selection-start="5581" selection-end="5581" vertical-scroll-proportion="-14.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/views/pc/pc_question.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="12" selection-start="436" selection-end="436" vertical-scroll-proportion="-6.4166665">
+        <state line="6" column="20" selection-start="232" selection-end="232" vertical-scroll-proportion="-5.5">
           <folding />
         </state>
       </provider>
@@ -425,30 +603,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/views/public/head.tpl">
+    <entry file="file://$PROJECT_DIR$/oa_app/config/site_config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="67" column="4" selection-start="2191" selection-end="2191" vertical-scroll-proportion="-14.541667">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/views/power/permissions.tpl">
+    <entry file="file://$PROJECT_DIR$/inc/js/jQueryUI/zh_cn/datepicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="21" selection-start="109" selection-end="109" vertical-scroll-proportion="-2.75">
+        <state line="27" column="30" selection-start="999" selection-end="999" vertical-scroll-proportion="0.7419899">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/config/config.php">
+    <entry file="file://$PROJECT_DIR$/inc/js/hr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="25" selection-start="396" selection-end="396" vertical-scroll-proportion="-11.0">
+        <state line="12" column="39" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/config/smarty.php">
+    <entry file="file://$PROJECT_DIR$/inc/js/jQuery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="32" selection-start="265" selection-end="265" vertical-scroll-proportion="0.4788494">
+        <state line="4" column="34" selection-start="64262" selection-end="64262" vertical-scroll-proportion="0.15172414">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_app/controllers/hr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="65" selection-start="728" selection-end="728" vertical-scroll-proportion="-15.583333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_app/models/model_hr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="167" column="23" selection-start="5751" selection-end="5751" vertical-scroll-proportion="-149.66667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_app/helpers/common_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="402" column="20" selection-start="11071" selection-end="11071" vertical-scroll-proportion="-6.0416665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="0" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_app/views/hr/staff_add.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="28" selection-start="449" selection-end="453" vertical-scroll-proportion="0.9166667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/js/jQuery-Validation-Engine/jquery.validationEngine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="35" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_app/controllers/my.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="-2.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/js/staff.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="329" selection-end="329" vertical-scroll-proportion="0.5935919">
           <folding />
         </state>
       </provider>

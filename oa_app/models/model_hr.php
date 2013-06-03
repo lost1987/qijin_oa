@@ -161,4 +161,10 @@ class model_hr extends CI_Model{
             return $return;
         }
     }
+
+    function get_departments_all(){
+        $return = array();
+        $return = $this->db->select("uid,name")->get('common_sector')->result_array();
+        return $return;
+    }
 }

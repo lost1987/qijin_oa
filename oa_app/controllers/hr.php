@@ -4,7 +4,9 @@ class hr extends CI_Controller{
         parent::__construct();
         is_login_redirect();
         load_library(array('jquery-ui','fancybox','validation','sortable'));
+        add_js('inc/js/jQueryUI/zh_cn/datepicker.js');
         add_js('inc/js/hr.js');
+        add_js('inc/js/staff.js');
         add_css('inc/css/style.css');
         $css_js = css_js_render();
         $meta = load_meta();
@@ -28,6 +30,7 @@ class hr extends CI_Controller{
         $this->output_data['educational_background_select'] = theme('select_tag',$educational_background_select_varables);
 //        print_r($this->output_data['educational_background_select']);exit;
         $this->output_data['menu'] = menu('hr/staff');
+        $this->output_data['departments'] = $this->Model_hr->get_departments_all();
         $this->smarty_engine->display('hr/staff_add.tpl',$this->output_data);
     }
 

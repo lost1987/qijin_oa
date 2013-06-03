@@ -64,3 +64,9 @@ $config['educational_background'] = array(
      '8' => '博士',
      '9' => '其他',
 );
+
+//职务
+$config['sector'] = array(
+    '1' => '',
+    '2' => ''
+);

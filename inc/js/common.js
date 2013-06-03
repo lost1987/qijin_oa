@@ -63,3 +63,4 @@ function common_delete(o){
     });
     return false;
 }
+
