@@ -1,6 +1,3 @@
-<head>
-    <meta charset="utf-8" />
-</head>
 <div class="food_managet_pop">
     <p><em>修改菜品</em></p>
     <p><strong>菜名：</strong>

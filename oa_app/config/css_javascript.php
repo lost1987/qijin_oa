@@ -157,7 +157,14 @@ $config['library']['dialog'] = array(
         'inc/js/dialog/artDialog.min.js' => array(
             'group' => -80,
         ),
+        'inc/js/dialog/artDialog.plugins.min.js' => array(
+            'group' => -80,
+        ),
+        'inc/js/dialog/dialog.js' => array(
+            'group' => -80,
+        )
     ),
+
     'css' => array(
         'inc/js/dialog/twitter.css' => array('weight'=>10)
     )
