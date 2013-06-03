@@ -10,7 +10,7 @@ class Food extends CI_Controller{
     function __construct(){
         parent::__construct();
         is_login_redirect();
-        load_library(array('jquery-ui','fancybox'));
+        load_library(array('jquery-ui','dialog'));
 //        add_js('inc/js/power.js');
         add_js('inc/js/food.js');
         add_css('inc/css/style.css');

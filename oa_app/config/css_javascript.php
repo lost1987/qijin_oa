@@ -151,3 +151,14 @@ $config['library']['linkagesel'] = array(
     )
 );
 //end linkagesel
+
+$config['library']['dialog'] = array(
+    'javascript' => array(
+        'inc/js/dialog/artDialog.min.js' => array(
+            'group' => -80,
+        ),
+    ),
+    'css' => array(
+        'inc/js/dialog/twitter.css' => array('weight'=>10)
+    )
+);

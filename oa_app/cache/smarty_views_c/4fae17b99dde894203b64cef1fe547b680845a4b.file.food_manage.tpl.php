@@ -1,11 +1,36 @@
-{include file="public/head.tpl"}
+<?php /* Smarty version Smarty-3.1.13, created on 2013-06-03 16:15:05
+         compiled from "oa_app/views/food/food_manage.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:78614066551ac50898f98d0-39374793%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '4fae17b99dde894203b64cef1fe547b680845a4b' => 
+    array (
+      0 => 'oa_app/views/food/food_manage.tpl',
+      1 => 1370244880,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '78614066551ac50898f98d0-39374793',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_51ac50899118f6_60441727',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_51ac50899118f6_60441727')) {function content_51ac50899118f6_60441727($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("public/head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 <div class="warp">
-    {include file="public/sidebar.tpl"}
+    <?php echo $_smarty_tpl->getSubTemplate ("public/sidebar.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
     <div class="box">
-        {include file="public/header.tpl"}
+        <?php echo $_smarty_tpl->getSubTemplate ("public/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
         <div class="title">
             <p><span class="power">
-            {include file="public/breadcrumbs.tpl"}
+            <?php echo $_smarty_tpl->getSubTemplate ("public/breadcrumbs.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
             </span></div>
         <div class="main">
             <form action="" method="get">
@@ -30,7 +55,8 @@
                         <li>
                         	<span class="checkbox"><input name="" type="checkbox" value="" class="checkbox"/></span>
                             <span class="dish">蘑菇土豆丝炒蛋</span>
-                            <span class="pic"><img src="{base_url u='inc/images/food.jpg'}" width="89" height="72" alt=""/></span>
+                            <span class="pic"><img src="<?php echo base_url(array('u'=>'inc/images/food.jpg'),$_smarty_tpl);?>
+" width="89" height="72" alt=""/></span>
                             <span class="money">￥14</span>
                             <span class="amend"><input name="modify" type="button" value="修 改" class="btn"/></span>
                             <span class="delete"><input name="" type="button" value="删 除" class="btn"/></span>
@@ -72,3 +98,4 @@
 </div>
 </body>
 </html>
+<?php }} ?>

@@ -65,10 +65,82 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="food.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="food.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/inc/js/food.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="3" selection-start="372" selection-end="372" vertical-scroll-proportion="0.4292683">
+            <state line="8" column="38" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="food_manage.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_app/views/food/food_manage.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="38" selection-start="152" selection-end="152" vertical-scroll-proportion="-2.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="food.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_app/controllers/food.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="30" selection-start="261" selection-end="261" vertical-scroll-proportion="-7.2083335">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common_helper.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_app/helpers/common_helper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="306" column="21" selection-start="8612" selection-end="8616" vertical-scroll-proportion="-4.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="css_javascript.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_app/config/css_javascript.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="154" column="28" selection-start="3688" selection-end="3689" vertical-scroll-proportion="-10.875">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/inc/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="58" selection-start="671" selection-end="671" vertical-scroll-proportion="0.5564924">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site_config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_app/config/site_config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="2" selection-start="2122" selection-end="2122" vertical-scroll-proportion="-0.82">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_app/config/config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="346" column="2" selection-start="12298" selection-end="12298" vertical-scroll-proportion="-2.14">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="head.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_app/views/public/head.tpl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="20" selection-start="232" selection-end="232" vertical-scroll-proportion="-5.5">
               <folding />
             </state>
           </provider>
@@ -84,12 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/oa_app/views/hr/staff_edit.tpl" />
-        <option value="$PROJECT_DIR$/oa_app/controllers/index.php" />
-        <option value="$USER_HOME$/test.php" />
-        <option value="$USER_HOME$/Desktop/oa.sql" />
-        <option value="$USER_HOME$/Desktop/qijinsoft_oa_ucenter.sql" />
-        <option value="$PROJECT_DIR$/system/database/DB_driver.php" />
         <option value="$PROJECT_DIR$/oa_app/config/config.php" />
         <option value="$PROJECT_DIR$/oa_app/config/database.php" />
         <option value="$PROJECT_DIR$/config.inc.php" />
@@ -100,6 +166,12 @@
         <option value="$PROJECT_DIR$/inc/js/common.js" />
         <option value="$PROJECT_DIR$/inc/js/staff.js" />
         <option value="$PROJECT_DIR$/oa_app/config/site_config.php" />
+        <option value="$PROJECT_DIR$/oa_app/views/food/food_manage.tpl" />
+        <option value="$PROJECT_DIR$/oa_app/controllers/food.php" />
+        <option value="$PROJECT_DIR$/oa_app/config/css_javascript.php" />
+        <option value="$PROJECT_DIR$/inc/js/dialog/twitter.css" />
+        <option value="$PROJECT_DIR$/inc/js/food.js" />
+        <option value="$PROJECT_DIR$/inc/js/dialog/dialog.js" />
       </list>
     </option>
   </component>
@@ -280,11 +352,87 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="oa_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="inc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dialog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,11 +468,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/inc/js/dialog" />
+      <recent name="$PROJECT_DIR$/inc/js" />
       <recent name="$PROJECT_DIR$/inc/js/jQueryUI" />
       <recent name="$PROJECT_DIR$/oa_app/views/pc" />
       <recent name="$PROJECT_DIR$/oa_app/views/food" />
-      <recent name="$PROJECT_DIR$/oa_app/views/hr" />
-      <recent name="$PROJECT_DIR$/oa_app/views/public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/inc/js/jQuery" />
@@ -441,85 +589,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/oa_app/helpers/menu_helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="125" selection-end="140" vertical-scroll-proportion="-2.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/views/public/head.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="20" selection-start="232" selection-end="232" vertical-scroll-proportion="-5.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/views/public/header.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/js/jQueryUI/zh_cn/datepicker.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="30" selection-start="999" selection-end="999" vertical-scroll-proportion="0.7419899">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/js/hr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="39" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/js/jQuery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="34" selection-start="64262" selection-end="64262" vertical-scroll-proportion="0.15172414">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/controllers/hr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="65" selection-start="728" selection-end="728" vertical-scroll-proportion="0.63282573">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/models/model_hr.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="23" selection-start="5751" selection-end="5751" vertical-scroll-proportion="6.214533">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/helpers/common_helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="402" column="20" selection-start="11071" selection-end="11071" vertical-scroll-proportion="0.24534687">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="1916" selection-end="1916" vertical-scroll-proportion="0.8569106">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/views/hr/staff_add.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="449" selection-end="453" vertical-scroll-proportion="-0.03722504">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inc/js/jQuery-Validation-Engine/jquery.validationEngine.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="35" selection-start="442" selection-end="442" vertical-scroll-proportion="-29.149502">
@@ -543,16 +612,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/oa_app/views/public/header.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_app/views/public/head.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="20" selection-start="232" selection-end="232" vertical-scroll-proportion="-5.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/js/dialog/artDialog.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="14" selection-start="495" selection-end="495" vertical-scroll-proportion="0.40199336">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_app/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="346" column="2" selection-start="12298" selection-end="12298" vertical-scroll-proportion="-2.14">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/oa_app/config/site_config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="534" selection-end="534" vertical-scroll-proportion="0.40947548">
+        <state line="55" column="2" selection-start="2122" selection-end="2122" vertical-scroll-proportion="-0.82">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_app/helpers/common_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="306" column="21" selection-start="8612" selection-end="8616" vertical-scroll-proportion="-4.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_app/controllers/food.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="30" selection-start="261" selection-end="261" vertical-scroll-proportion="-7.2083335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_app/views/food/food_manage.tpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="38" selection-start="152" selection-end="152" vertical-scroll-proportion="-2.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/js/dialog/twitter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="21" selection-start="350" selection-end="350" vertical-scroll-proportion="0.18965517">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/inc/js/food.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="372" selection-end="372" vertical-scroll-proportion="0.4292683">
+        <state line="8" column="38" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_app/config/css_javascript.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="28" selection-start="3688" selection-end="3689" vertical-scroll-proportion="-10.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/js/dialog/dialog.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="58" selection-start="671" selection-end="671" vertical-scroll-proportion="0.5564924">
           <folding />
         </state>
       </provider>
