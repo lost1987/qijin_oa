@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-06-03 16:47:12
+<?php /* Smarty version Smarty-3.1.13, created on 2013-06-03 16:59:24
          compiled from "oa_app/views/food/food_modify_window.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:128249538051ac5810601a82-36460156%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:91348511151ac5aecaf96c6-58844671%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '128249538051ac5810601a82-36460156',
+  'nocache_hash' => '91348511151ac5aecaf96c6-58844671',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51ac5810608505_29913585',
+  'unifunc' => 'content_51ac5aecb018c3_11275479',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51ac5810608505_29913585')) {function content_51ac5810608505_29913585($_smarty_tpl) {?><div class="food_managet_pop">
+<?php if ($_valid && !is_callable('content_51ac5aecb018c3_11275479')) {function content_51ac5aecb018c3_11275479($_smarty_tpl) {?><div class="food_managet_pop">
     <p><em>修改菜品</em></p>
     <p><strong>菜名：</strong>
         <input name="" type="text" class="txt" />
