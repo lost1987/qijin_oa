@@ -22,8 +22,10 @@ $config['menu'] = array(
         '#title' => '我要点餐',
         '#class' => 'food',
         'level1' => array(
-            'menu' => array('#title'=>'菜单大全','#current'=>FALSE),
-            'menu_manage' => array('#title'=>'菜单管理','#current'=>FALSE),
+            'food_menu' => array('#title'=>'菜单大全','#current'=>FALSE),
+            'food_manage' => array('#title'=>'菜单管理','#current'=>FALSE),
+            'food_today' => array('#title'=>'今日点餐','#current'=>FALSE),
+            'food_cost' => array('#title'=>'费用清单','#current'=>FALSE),
         )
     ),
     'power' => array(
