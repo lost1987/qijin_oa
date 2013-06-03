@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-06-03 16:59:22
+<?php /* Smarty version Smarty-3.1.13, created on 2013-06-03 17:57:18
          compiled from "oa_app/views/public/header.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:112963699851ac5aeab00236-49054189%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:99754647951ac687ed3fd63-16870526%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '112963699851ac5aeab00236-49054189',
+  'nocache_hash' => '99754647951ac687ed3fd63-16870526',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51ac5aeab08232_52744750',
+  'unifunc' => 'content_51ac687ed485c0_27790068',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51ac5aeab08232_52744750')) {function content_51ac5aeab08232_52744750($_smarty_tpl) {?><div class="header"> <span>上午好！成茜　2013年5月25日　星期五　16:17:23</span><a href="<?php echo site_url(array(),$_smarty_tpl);?>
+<?php if ($_valid && !is_callable('content_51ac687ed485c0_27790068')) {function content_51ac687ed485c0_27790068($_smarty_tpl) {?><div class="header"> <span>上午好！成茜　2013年5月25日　星期五　16:17:23</span><a href="<?php echo site_url(array(),$_smarty_tpl);?>
 " class="home">返回首页</a><a href="<?php echo site_url(array('u'=>$_smarty_tpl->tpl_vars['uri_string']->value),$_smarty_tpl);?>
 " class="refresh">刷新</a><a href="<?php echo site_url(array('u'=>'logout'),$_smarty_tpl);?>
 " class="exit">退出</a> </div><?php }} ?>
