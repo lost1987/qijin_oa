@@ -1,82 +1,32 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>我要点餐（菜单大全） - 齐进网络OA办公系统</title>
-<link href="inc/css/style.css" type="text/css" rel="stylesheet" />
-<script type="text/javascript" src="inc/js/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="inc/js/main.js"></script>
-<!--[if IE 6]>
-<script type="text/javascript" src="inc/js/ie6-png.js"></script>
-<![endif]-->
-</head>
-
-<body>
+{include file="public/head.tpl"}
 <div class="warp">
-    <div class="sidebar">
-        <div class="logo">
-            <h1><a href="#" title="返回首页"><span class="hide">齐进网络</span></a></h1>
-        </div>
-        <div class="menu">
-            <ul>
-                <li>
-                    <h2><a href="#" class="info"><span class="plus">个人资料</span></a></h2>
-                    <p> <a href="#" class="current">个人档案</a> <a href="#">合同状态</a><a href="#">头像上传</a> </p>
-                </li>
-                <li>
-                    <h2 class="current"><a href="#" class="food"><span class="minus">我要点餐</span></a></h2>
-                    <p class="display"> <a href="#" class="current">菜单大全</a> <a href="#">今日点餐</a> <a href="#">费用清单</a> <a href="#">菜单管理</a></p>
-                </li>
-                <li>
-                    <h2><a href="#" class="repairs"><span>PC报修</span></a></h2>
-                </li>
-                <li>
-                    <h2><a href="#" class="attendance"><span>考勤记录</span></a></h2>
-                    <p> <a href="#" class="current">打卡记录</a> <a href="#">迟到统计</a></p>
-                </li>
-                <li>
-                    <h2><a href="#" class="staff"><span>职工管理</span></a></h2>
-                </li>
-                <li>
-                    <h2><a href="#" class="applicant"><span>应聘资料管理</span></a></h2>
-                </li>
-                <li>
-                    <h2><a href="#" class="department"><span>部门管理</span></a></h2>
-                </li>
-                <li>
-                    <h2><a href="#" class="power"><span>权限管理</span></a></h2>
-                    <p> <a href="#" class="current">创建新区块</a> <a href="#">管理区块</a></p>
-                </li>
-            </ul>
-            <div class="clear"></div>
-        </div>
-        <div class="shadow"></div>
-    </div>
+    {include file="public/sidebar.tpl"}
     <div class="box">
-        <div class="header"> <span>上午好！成茜　2013年5月25日　星期五　16:17:23</span><a href="#" class="home">返回首页</a><a href="#" class="refresh">刷新</a><a href="#" class="exit">退出</a> </div>
+        {include file="public/header.tpl"}
         <div class="title">
-            <p><span class="food">我要点餐（菜单大全）</span></p>
-        </div>
+            <p><span class="power">
+            {include file="public/breadcrumbs.tpl"}
+            </span></div>
         <div class="main">
             <form action="" method="get">
                 <div class="food">
                     <p><span> <em><b>账单金额：-1元</b></em> <em>点餐区域：
-                        <select>
-                            <option>全部</option>
-                            <option>八元区</option>
-                            <option>十元区</option>
-                            <option>十二元区</option>
-                            <option>十四元区</option>
-                        </select>
-                        </em> </span>
+                                <select>
+                                    <option>全部</option>
+                                    <option>八元区</option>
+                                    <option>十元区</option>
+                                    <option>十二元区</option>
+                                    <option>十四元区</option>
+                                </select>
+                            </em> </span>
                         <input name="" type="button" value="我不点餐"/>
                         <input name="" type="button" value="点餐记录"/>
                     </p>
                     <ul>
-                        <li><a href="#" title="蘑菇土豆丝炒蛋"><img src="inc/images/food.jpg" width="178" height="143" alt=""/><em>￥14</em></a><span><strong>蘑菇土豆丝炒蛋</strong>
+                        <li><a href="#" title="蘑菇土豆丝炒蛋"><img src="{base_url u='inc/images/food.jpg'}" width="178" height="143" alt=""/><em>￥14</em></a><span><strong>蘑菇土豆丝炒蛋</strong>
                             <input name="" type="button" value="订餐"/>
                             </span></li>
-                        <li><a href="#" title="蘑菇土豆丝炒蛋"><img src="inc/images/food.jpg" width="178" height="143" alt=""/><em>￥14</em></a><span><strong>蘑菇土豆丝炒蛋</strong>
+                        <li><a href="#" title="蘑菇土豆丝炒蛋"><img src="{base_url u='inc/images/food.jpg'}" width="178" height="143" alt=""/><em>￥14</em></a><span><strong>蘑菇土豆丝炒蛋</strong>
                             <input name="" type="button" value="订餐"/>
                             </span></li>
                         <li><a href="#" title="蘑菇土豆丝炒蛋"><img src="inc/images/food.jpg" width="178" height="143" alt=""/><em>￥7</em></a><span><strong>蘑菇土豆丝炒蛋</strong>

@@ -1,62 +1,39 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>我要点餐（菜单管理） - 齐进网络OA办公系统</title>
-<link href="inc/css/style.css" type="text/css" rel="stylesheet" />
-<script type="text/javascript" src="inc/js/jquery-1.7.1.min.js"></script>
-<script type="text/javascript" src="inc/js/main.js"></script>
-<!--[if IE 6]>
-<script type="text/javascript" src="inc/js/ie6-png.js"></script>
-<![endif]-->
-</head>
+<?php /* Smarty version Smarty-3.1.13, created on 2013-06-03 07:04:11
+         compiled from "oa_app\views\food\food_manage.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:1917751ac3feb5a54e2-09548148%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    '5ce76b43dd4b1eda51b3e6dd973f54ecec81feb0' => 
+    array (
+      0 => 'oa_app\\views\\food\\food_manage.tpl',
+      1 => 1370242842,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '1917751ac3feb5a54e2-09548148',
+  'function' => 
+  array (
+  ),
+  'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.13',
+  'unifunc' => 'content_51ac3feb72da99_86071891',
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_51ac3feb72da99_86071891')) {function content_51ac3feb72da99_86071891($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("public/head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
-<body>
+<?php echo $_smarty_tpl->getSubTemplate ("public/head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 <div class="warp">
-    <div class="sidebar">
-        <div class="logo">
-            <h1><a href="#" title="返回首页"><span class="hide">齐进网络</span></a></h1>
-        </div>
-        <div class="menu">
-            <ul>
-                <li>
-                    <h2><a href="#" class="info"><span class="plus">个人资料</span></a></h2>
-                    <p> <a href="#" class="current">个人档案</a> <a href="#">合同状态</a><a href="#">头像上传</a> </p>
-                </li>
-                <li>
-                    <h2 class="current"><a href="#" class="food"><span class="minus">我要点餐</span></a></h2>
-                    <p class="display"> <a href="#">菜单大全</a> <a href="#">今日点餐</a> <a href="#">费用清单</a> <a href="#" class="current">菜单管理</a></p>
-                </li>
-                <li>
-                    <h2><a href="#" class="repairs"><span>PC报修</span></a></h2>
-                </li>
-                <li>
-                    <h2><a href="#" class="attendance"><span>考勤记录</span></a></h2>
-                    <p> <a href="#" class="current">打卡记录</a> <a href="#">迟到统计</a></p>
-                </li>
-                <li>
-                    <h2><a href="#" class="staff"><span>职工管理</span></a></h2>
-                </li>
-                <li>
-                    <h2><a href="#" class="applicant"><span>应聘资料管理</span></a></h2>
-                </li>
-                <li>
-                    <h2><a href="#" class="department"><span>部门管理</span></a></h2>
-                </li>
-                <li>
-                    <h2><a href="#" class="power"><span>权限管理</span></a></h2>
-                    <p> <a href="#" class="current">创建新区块</a> <a href="#">管理区块</a></p>
-                </li>
-            </ul>
-            <div class="clear"></div>
-        </div>
-        <div class="shadow"></div>
-    </div>
+    <?php echo $_smarty_tpl->getSubTemplate ("public/sidebar.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
     <div class="box">
-        <div class="header"> <span>上午好！成茜　2013年5月25日　星期五　16:17:23</span><a href="#" class="home">返回首页</a><a href="#" class="refresh">刷新</a><a href="#" class="exit">退出</a> </div>
+        <?php echo $_smarty_tpl->getSubTemplate ("public/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
         <div class="title">
-            <p><span class="food">我要点餐（菜单管理）</span></p>
-        </div>
+            <p><span class="power">
+            <?php echo $_smarty_tpl->getSubTemplate ("public/breadcrumbs.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
+            </span></div>
         <div class="main">
             <form action="" method="get">
                 <div class="food_manage">
@@ -80,9 +57,10 @@
                         <li>
                         	<span class="checkbox"><input name="" type="checkbox" value="" class="checkbox"/></span>
                             <span class="dish">蘑菇土豆丝炒蛋</span>
-                            <span class="pic"><img src="inc/images/food.jpg" width="89" height="72" alt=""/></span>
+                            <span class="pic"><img src="<?php echo base_url(array('u'=>'inc/images/food.jpg'),$_smarty_tpl);?>
+" width="89" height="72" alt=""/></span>
                             <span class="money">￥14</span>
-                            <span class="amend"><input name="" type="button" value="修 改" class="btn"/></span>
+                            <span class="amend"><input name="modify" type="button" value="修 改" class="btn"/></span>
                             <span class="delete"><input name="" type="button" value="删 除" class="btn"/></span>
                         </li>
                         <li>
@@ -120,18 +98,6 @@
     </div>
     <div class="footer">Copyright © 2013 <a href="http://www.qijinsoft.com/" target="_blank" title="齐进网络">齐进网络</a> All rights reserved.</div>
 </div>
-<div class="food_managet_pop">
-    <p><em>修改菜品</em></p>
-    <p><strong>菜名：</strong>
-        <input name="" type="text" class="txt" />
-        <strong>单价：</strong>
-        <input name="" type="text" class="txt2" />
-        元</p>
-    <p><img src="inc/images/food.jpg" width="89" height="72" alt=""/></p>
-    <p>
-        <input name="" type="file" class="file" />
-        <input name="" type="button" value="提交" class="btn"/>
-    </p>
-</div>
 </body>
 </html>
+<?php }} ?>
