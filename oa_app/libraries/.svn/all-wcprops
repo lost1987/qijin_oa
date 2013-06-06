@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/oa/!svn/ver/7/oa_app/libraries
+END
+Twig.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/oa/!svn/ver/1/oa_app/libraries/Twig.php
+END
+Role.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/oa/!svn/ver/1/oa_app/libraries/Role.php
+END
+Smarty_engine.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/oa/!svn/ver/7/oa_app/libraries/Smarty_engine.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/oa/!svn/ver/1/oa_app/libraries/index.html
+END
+Ucenter.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/oa/!svn/ver/1/oa_app/libraries/Ucenter.php
+END

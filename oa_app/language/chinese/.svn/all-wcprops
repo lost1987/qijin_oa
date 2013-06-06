@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/oa/!svn/ver/1/oa_app/language/chinese
+END
+number_lang.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/oa/!svn/ver/1/oa_app/language/chinese/number_lang.php
+END
+calendar_lang.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/oa/!svn/ver/1/oa_app/language/chinese/calendar_lang.php
+END
+ftp_lang.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/oa/!svn/ver/1/oa_app/language/chinese/ftp_lang.php
+END
+migration_lang.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/oa/!svn/ver/1/oa_app/language/chinese/migration_lang.php
+END
+date_lang.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/oa/!svn/ver/1/oa_app/language/chinese/date_lang.php
+END
+form_validation_lang.php
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/oa/!svn/ver/1/oa_app/language/chinese/form_validation_lang.php
+END
+unit_test_lang.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/oa/!svn/ver/1/oa_app/language/chinese/unit_test_lang.php
+END
+profiler_lang.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/oa/!svn/ver/1/oa_app/language/chinese/profiler_lang.php
+END
+imglib_lang.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/oa/!svn/ver/1/oa_app/language/chinese/imglib_lang.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/oa/!svn/ver/1/oa_app/language/chinese/index.html
+END
+upload_lang.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/oa/!svn/ver/1/oa_app/language/chinese/upload_lang.php
+END
+db_lang.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/oa/!svn/ver/1/oa_app/language/chinese/db_lang.php
+END
+email_lang.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/oa/!svn/ver/1/oa_app/language/chinese/email_lang.php
+END

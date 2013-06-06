@@ -4,6 +4,7 @@
     <list default="true" id="51428f36-2839-4f2b-b0d6-656c01bc77cb" name="Default" comment="" />
     <ignored path="oa.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="/food_order_record.tpl" changelist="51428f36-2839-4f2b-b0d6-656c01bc77cb" time="1370319489748" ignored="false" />
     <file path="/a.php" changelist="51428f36-2839-4f2b-b0d6-656c01bc77cb" time="1363227077984" ignored="false" />
     <file path="/hr.php" changelist="51428f36-2839-4f2b-b0d6-656c01bc77cb" time="1363851126233" ignored="false" />
     <file path="/department.tpl" changelist="51428f36-2839-4f2b-b0d6-656c01bc77cb" time="1363772181617" ignored="false" />
@@ -65,46 +66,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="site_config.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oa_app/config/site_config.php">
+      <file leaf-file-name="staff.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inc/js/staff.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="42" selection-start="2166" selection-end="2166" vertical-scroll-proportion="-4.5416665">
+            <state line="7" column="9" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="css_javascript.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/oa_app/config/css_javascript.php">
+      <file leaf-file-name="util.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/inc/js/util.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="162" column="43" selection-start="3957" selection-end="3957" vertical-scroll-proportion="-12.791667">
+            <state line="18" column="50" selection-start="544" selection-end="544" vertical-scroll-proportion="0.41724136">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dialog.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/js/dialog/dialog.js">
+      <file leaf-file-name="staff_add.tpl" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_app/views/hr/staff_add.tpl">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="16" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
+            <state line="4" column="54" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="food.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/inc/js/food.js">
+      <file leaf-file-name="hr.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_app/controllers/hr.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="46" selection-start="263" selection-end="263" vertical-scroll-proportion="0.17886178">
+            <state line="61" column="19" selection-start="2733" selection-end="2733" vertical-scroll-proportion="-47.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twitter.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/js/dialog/twitter.css">
+      <file leaf-file-name="common_helper.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_app/helpers/common_helper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="2" selection-start="5802" selection-end="5802" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MY_html_helper.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_app/helpers/MY_html_helper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="url_helper.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/system/helpers/url_helper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="3" selection-start="1005" selection-end="1005" vertical-scroll-proportion="-5.2916665">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model_hr.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_app/models/model_hr.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="38" selection-start="2136" selection-end="2136" vertical-scroll-proportion="-21.083334">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ucenter_helper.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_app/helpers/ucenter_helper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="8" selection-start="6" selection-end="14" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ucenter.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/oa_app/libraries/Ucenter.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="70" column="25" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -120,29 +166,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/oa_app/models/model_hr.php" />
-        <option value="$PROJECT_DIR$/oa_app/views/hr/staff_add.tpl" />
-        <option value="$PROJECT_DIR$/oa_app/controllers/hr.php" />
-        <option value="$PROJECT_DIR$/inc/js/jQueryUI/zh_cn/datepicker.js" />
-        <option value="$PROJECT_DIR$/inc/js/common.js" />
-        <option value="$PROJECT_DIR$/inc/js/staff.js" />
-        <option value="$PROJECT_DIR$/oa_app/config/site_config.php" />
-        <option value="$PROJECT_DIR$/oa_app/views/food/food_manage.tpl" />
-        <option value="$PROJECT_DIR$/oa_app/controllers/food.php" />
-        <option value="$PROJECT_DIR$/inc/js/dialog/dialog.js" />
-        <option value="$PROJECT_DIR$/oa_app/views/food/food_modify_window.tpl" />
-        <option value="$PROJECT_DIR$/inc/js/dialog/default.css" />
-        <option value="$PROJECT_DIR$/oa_app/config/css_javascript.php" />
-        <option value="$USER_HOME$/Desktop/artDialog-master/skins/twitter.css" />
-        <option value="$PROJECT_DIR$/inc/js/dialog/twitter.css" />
         <option value="$PROJECT_DIR$/inc/js/food.js" />
+        <option value="$PROJECT_DIR$/oa_app/controllers/food.php" />
+        <option value="$PROJECT_DIR$/oa_app/views/food/food_order_record.tpl" />
+        <option value="$PROJECT_DIR$/config.inc.php" />
+        <option value="$PROJECT_DIR$/oa_app/controllers/login.php" />
+        <option value="$PROJECT_DIR$/inc/js/form_validation.js" />
+        <option value="$PROJECT_DIR$/oa_app/libraries/Smarty_engine.php" />
+        <option value="$PROJECT_DIR$/oa_app/views/hr/staff_add.tpl" />
+        <option value="$PROJECT_DIR$/oa_app/.htaccess" />
+        <option value="$PROJECT_DIR$/oa_app/errors/error_general.php" />
+        <option value="$PROJECT_DIR$/oa_app/controllers/error.php" />
+        <option value="$PROJECT_DIR$/oa_app/views/error/error_general.php" />
+        <option value="$PROJECT_DIR$/oa_app/models/model_hr.php" />
+        <option value="$PROJECT_DIR$/inc/js/staff.js" />
+        <option value="$PROJECT_DIR$/oa_app/controllers/hr.php" />
+        <option value="$PROJECT_DIR$/inc/js/util.js" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="21" />
-    <option name="y" value="69" />
+    <option name="y" value="71" />
     <option name="width" value="1390" />
     <option name="height" value="763" />
   </component>
@@ -218,7 +264,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oa_app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -253,14 +335,6 @@
               <option name="myItemId" value="inc" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dialog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -272,7 +346,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="inc" />
+              <option name="myItemId" value="api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -284,21 +358,21 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../oa_uc" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/oa_app/errors" />
+      <recent name="$PROJECT_DIR$/oa_app/views/error" />
       <recent name="$PROJECT_DIR$/inc/js/dialog" />
       <recent name="$PROJECT_DIR$/inc/js" />
       <recent name="$PROJECT_DIR$/inc/js/jQueryUI" />
-      <recent name="$PROJECT_DIR$/oa_app/views/pc" />
-      <recent name="$PROJECT_DIR$/oa_app/views/food" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/inc/js/jQuery" />
@@ -340,23 +414,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="21" y="69" width="1390" height="763" extended-state="0" />
+    <frame x="21" y="71" width="1390" height="763" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.76635516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14222223" sideWeight="0.6704" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17113096" sideWeight="0.23364486" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14211309" sideWeight="0.23364486" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18377976" sideWeight="0.23364486" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.76635516" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -415,107 +489,110 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/oa_app/views/public/header.tpl">
+    <entry file="file://$PROJECT_DIR$/oa_app/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="33" selection-start="1543" selection-end="1543" vertical-scroll-proportion="-11.449912" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_app/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/views/public/head.tpl">
+    <entry file="file://$PROJECT_DIR$/oa_app/views/hr/staff_add.tpl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="20" selection-start="232" selection-end="232" vertical-scroll-proportion="-5.5">
+        <state line="4" column="54" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/js/dialog/artDialog.min.js">
+    <entry file="file://$PROJECT_DIR$/oa_app/errors/error_404.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="14" selection-start="495" selection-end="495" vertical-scroll-proportion="0.40199336">
+        <state line="8" column="29" selection-start="244" selection-end="244" vertical-scroll-proportion="0.29780033" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_app/helpers/ucenter_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="8" selection-start="6" selection-end="14" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/config/config.php">
+    <entry file="file://$USER_HOME$/Documents/demo/漂浮层top/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="346" column="2" selection-start="12298" selection-end="12298" vertical-scroll-proportion="0.18938053">
+        <state line="26" column="10" selection-start="0" selection-end="1029" vertical-scroll-proportion="0.7790894" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_app/libraries/Ucenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="70" column="25" selection-start="1962" selection-end="1962" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inc/js/common.js">
+    <entry file="file://$PROJECT_DIR$/inc/js/jQuery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/js/staff.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="9" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_app/models/model_hr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="38" selection-start="2136" selection-end="2136" vertical-scroll-proportion="-21.083334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/core/Config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="251" column="13" selection-start="5483" selection-end="5483" vertical-scroll-proportion="-0.04042179">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/helpers/url_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="3" selection-start="1005" selection-end="1005" vertical-scroll-proportion="-5.2916665">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oa_app/helpers/MY_html_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/oa_app/helpers/common_helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="306" column="21" selection-start="8612" selection-end="8616" vertical-scroll-proportion="-4.875">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/controllers/food.php">
+    <entry file="file://$PROJECT_DIR$/oa_app/controllers/hr.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="47" selection-start="338" selection-end="338" vertical-scroll-proportion="-7.2083335">
+        <state line="61" column="19" selection-start="2733" selection-end="2733" vertical-scroll-proportion="-47.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/views/food/food_manage.tpl">
+    <entry file="file://$PROJECT_DIR$/inc/js/util.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="38" selection-start="152" selection-end="152" vertical-scroll-proportion="-2.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/views/food/food_modify_window.tpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="6" selection-start="438" selection-end="438" vertical-scroll-proportion="0.4467005">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/config/site_config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="42" selection-start="2166" selection-end="2166" vertical-scroll-proportion="-4.5416665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/artDialog-master/skins/twitter.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="21" selection-start="350" selection-end="350" vertical-scroll-proportion="0.4385382">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/oa_app/config/css_javascript.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="43" selection-start="3957" selection-end="3957" vertical-scroll-proportion="-12.791667">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/js/dialog/dialog.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="16" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/js/dialog/twitter.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="2" selection-start="5802" selection-end="5802" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inc/js/food.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="46" selection-start="263" selection-end="263" vertical-scroll-proportion="0.17886178">
+        <state line="18" column="50" selection-start="544" selection-end="544" vertical-scroll-proportion="0.41724136">
           <folding />
         </state>
       </provider>

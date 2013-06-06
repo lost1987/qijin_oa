@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-06-03 17:23:55
+<?php /* Smarty version Smarty-3.1.13, created on 2013-06-06 11:45:06
          compiled from "oa_app/views/hr/staff_add.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:35337054851ac60abec8eb2-41314871%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:26701967551b005c2e4dde7-49608727%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '200b75a9bd38f7e85a334c6c46111ab40474bde5' => 
     array (
       0 => 'oa_app/views/hr/staff_add.tpl',
-      1 => 1370244339,
+      1 => 1370413043,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '35337054851ac60abec8eb2-41314871',
+  'nocache_hash' => '26701967551b005c2e4dde7-49608727',
   'function' => 
   array (
   ),
@@ -23,14 +23,16 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51ac60abef4c19_17065780',
+  'unifunc' => 'content_51b005c2e7a940_84746931',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51ac60abef4c19_17065780')) {function content_51ac60abef4c19_17065780($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("public/head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+<?php if ($_valid && !is_callable('content_51b005c2e7a940_84746931')) {function content_51b005c2e7a940_84746931($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("public/head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
 <div class="warp">
 <?php echo $_smarty_tpl->getSubTemplate ("public/sidebar.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
     <div class="box">
+    <form id="staff_form" method="post" action="<?php echo site_url(array('u'=>'hr/staff_save'),$_smarty_tpl);?>
+">
     <?php echo $_smarty_tpl->getSubTemplate ("public/header.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
         <div class="title">
@@ -38,7 +40,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <?php echo $_smarty_tpl->getSubTemplate ("public/breadcrumbs.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
             </span>
-                <input id="main-submit" type="button" value="保存" class="save" />
+                <input id="main-submit" type="submit" value="保存" class="save" />
             </p>
         </div>
         <div class="main">
@@ -49,6 +51,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     <p>
                         <label for="truename">姓　　名：</label>
                         <input id="truename" name="truename" type="text" />
+                        <font color="red" style="font-size:10px">*</font>
                     </p>
                     <p>
                         <label for="sex">性　　别：</label>
@@ -63,7 +66,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     </p>
                     <p>
                         <label for="birthday">生　　日：</label>
-                        <input id="birthday" name="birthday" type="text" />
+                        <input id="birthday" name="birthday" readonly="readonly" type="text" />
                     </p>
                     <p>
                         <label for="educational_background">学　　历：</label>
@@ -84,6 +87,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     <p>
                         <label for="phone">手机号码：</label>
                         <input id="phone" name="phone" type="text" />
+                        <font color="red" style="font-size:10px">*</font>
                     </p>
                     <p>
                         <label for="idcard">身份证号：</label>
@@ -118,7 +122,8 @@ $_smarty_tpl->tpl_vars['element']->_loop = true;
                     </p>
                     <p>
                         <label for="join_time">入职时间：</label>
-                        <input id="join_time" name="join_time" type="text" />
+                        <input id="join_time" name="join_time" readonly="readonly" type="text" />
+                        <font color="red" style="font-size:10px">*</font>
                     </p>
                     <p>
                         <label for="work_age">工　　龄：</label>
@@ -151,9 +156,10 @@ $_smarty_tpl->tpl_vars['element']->_loop = true;
                         <label for="note">成长记录：</label>
                         <textarea id="note" name="note" cols="" rows=""></textarea>
                         </span> </div>
-                <div class="clear"></div>
+                    <div class="clear"></div>
             </div>
         </div>
+        <form>
         <div class="bottom">
             <p>　　</p>
         </div>

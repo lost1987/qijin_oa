@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 18
+/svn/oa/!svn/ver/7
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/oa/!svn/ver/1/license.txt
+END
+test.html
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/oa/!svn/ver/1/test.html
+END
+config.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/oa/!svn/ver/1/config.inc.php
+END
+demo.php
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/oa/!svn/ver/1/demo.php
+END
+CI_phpStorm.php
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/oa/!svn/ver/1/CI_phpStorm.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/oa/!svn/ver/1/index.php
+END

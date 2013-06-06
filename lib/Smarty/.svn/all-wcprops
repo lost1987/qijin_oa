@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/oa/!svn/ver/1/lib/Smarty
+END
+debug.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/oa/!svn/ver/1/lib/Smarty/debug.tpl
+END
+Smarty.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/oa/!svn/ver/1/lib/Smarty/Smarty.class.php
+END
+SmartyBC.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/oa/!svn/ver/1/lib/Smarty/SmartyBC.class.php
+END

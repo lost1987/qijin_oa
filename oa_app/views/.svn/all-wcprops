@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/oa/!svn/ver/6/oa_app/views
+END
+index.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/oa/!svn/ver/1/oa_app/views/index.tpl
+END
+login.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/oa/!svn/ver/1/oa_app/views/login.tpl
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/oa/!svn/ver/1/oa_app/views/index.html
+END

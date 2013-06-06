@@ -3,14 +3,10 @@ class hr extends CI_Controller{
     function __construct(){
         parent::__construct();
         is_login_redirect();
-        load_library(array('jquery-ui','fancybox','validation','sortable'));
-        add_js('inc/js/jQueryUI/zh_cn/datepicker.js');
+        load_library(array('jquery-ui','dialog','validation','sortable'));
         add_js('inc/js/hr.js');
-        add_js('inc/js/staff.js');
         add_css('inc/css/style.css');
-        $css_js = css_js_render();
-        $meta = load_meta();
-        $this->output_data = array_merge($this->output_data,$css_js,array('header_meta'=>$meta));
+
         $this->load->model('Model_hr');
     }
 
@@ -20,6 +16,10 @@ class hr extends CI_Controller{
     }
 
     function staff_add(){
+        add_js('inc/js/jQueryUI/zh_cn/datepicker.js');
+        add_js('inc/js/util.js');
+        add_js('inc/js/staff.js');
+
         $educational_background_select_varables = array(
             '#data' => $this->config->item('educational_background'),
             '#attributes' => array(
@@ -51,6 +51,17 @@ class hr extends CI_Controller{
         $this->output_data['educational_background_select'] = theme('select_tag',$educational_background_select_varables);
 
         $this->smarty_engine->display('hr/staff_edit.tpl',$this->output_data);
+    }
+
+    function staff_save(){
+          $post = $this->input->post();
+          $post['birthday'] = empty($post['birthday']) ? null : strtotime(preg_replace('/[^0-9]/','-',$post['birthday']));
+          $post['join_time'] = empty($post['join_time']) ? null : strtotime(preg_replace('/[^0-9]/','-',$post['join_time']));
+          if($this->Model_hr->user_save($post)){
+              header('location:'.site_url('hr/staff'));
+              exit;
+          }
+          show_error('员工数据写入错误!' ,500 ,'错误');
     }
 
     function department(){

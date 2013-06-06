@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/oa/!svn/ver/4/oa_app/views/hr
+END
+department.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/oa/!svn/ver/1/oa_app/views/hr/department.tpl
+END
+staff.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/oa/!svn/ver/1/oa_app/views/hr/staff.tpl
+END
+staff_edit.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/oa/!svn/ver/1/oa_app/views/hr/staff_edit.tpl
+END
+staff_add.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/oa/!svn/ver/8/oa_app/views/hr/staff_add.tpl
+END

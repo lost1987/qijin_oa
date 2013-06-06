@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/oa/!svn/ver/1/oa_app/config
+END
+site_config.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/oa/!svn/ver/1/oa_app/config/site_config.php
+END
+migration.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/oa/!svn/ver/1/oa_app/config/migration.php
+END
+doctypes.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/oa/!svn/ver/1/oa_app/config/doctypes.php
+END
+role.php
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/oa/!svn/ver/1/oa_app/config/role.php
+END
+database.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/oa/!svn/ver/1/oa_app/config/database.php
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/oa/!svn/ver/1/oa_app/config/config.php
+END
+autoload.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/oa/!svn/ver/1/oa_app/config/autoload.php
+END
+foreign_chars.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/oa/!svn/ver/1/oa_app/config/foreign_chars.php
+END
+mimes.php
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/oa/!svn/ver/1/oa_app/config/mimes.php
+END
+twig.php
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/oa/!svn/ver/1/oa_app/config/twig.php
+END
+constants.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/oa/!svn/ver/1/oa_app/config/constants.php
+END
+css_javascript.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/oa/!svn/ver/1/oa_app/config/css_javascript.php
+END
+smarty.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/oa/!svn/ver/1/oa_app/config/smarty.php
+END
+user_agents.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/oa/!svn/ver/1/oa_app/config/user_agents.php
+END
+routes.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/oa/!svn/ver/1/oa_app/config/routes.php
+END
+profiler.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/oa/!svn/ver/1/oa_app/config/profiler.php
+END
+hooks.php
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/oa/!svn/ver/1/oa_app/config/hooks.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/oa/!svn/ver/1/oa_app/config/index.html
+END
+smileys.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/oa/!svn/ver/1/oa_app/config/smileys.php
+END

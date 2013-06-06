@@ -1,0 +1,75 @@
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
+/**
+ * Smarty模板解析类，用于替换CI默认的模板引擎
+ * @auther  cary <289872225@qq.com>
+ * @date    2013.02.01 10:31
+ * @version Version 1.0
+ * @copyright Copyright (c) 2013,cary
+ * @link    http://sun190.com
+ * @since		Version 1.0
+ */
+class Smarty_Engine{
+
+    private $CI;
+    private $_smarty;
+
+
+    function __construct(){
+        $this->CI = &get_instance();
+        $this->CI->load->config('smarty');
+        ini_set('include_path',ini_get('include_path').PATH_SEPARATOR.FCPATH.DIRECTORY_SEPARATOR.'lib'.DIRECTORY_SEPARATOR.'Smarty'.DIRECTORY_SEPARATOR);
+        include("Smarty.class".EXT);
+        log_message('debug',"Smarty Loader");
+        $this->_smarty = new Smarty();
+        $this->_smarty->debugging = $this->CI->config->item('debug');
+
+        //是否开启缓存
+        $this->_smarty->caching = $this->CI->config->item('cache');
+        //设置缓存目录
+        $this->_smarty->setCacheDir($this->CI->config->item('cache_dir'));
+        //设置缓存过期时间
+        $this->_smarty->cache_lifetime = $this->CI->config->item('cache_lifetime');
+
+        //设置模板目录
+        $this->_smarty->setTemplateDir($this->CI->config->item('template_dir'));
+        //设置保存模板编译文件的目录
+        $this->_smarty->setCompileDir($this->CI->config->item('compile_dir'));
+        //当模板有改版会重新编译,生产环境中就无需编译检查,在没有编译的情况下,修改了模板将什么也不会改变
+        $this->_smarty->compile_check = $this->CI->config->item('compile_check');
+        //设置是否强制每次调用都重新编译
+        $this->_smarty->force_compile = $this->CI->config->item('force_compile');
+
+        $this->_smarty->left_delimiter = $this->CI->config->item('left_delimiter');
+        $this->_smarty->right_delimiter = $this->CI->config->item('right_delimiter');
+
+
+    }
+
+    /**
+     * 直接输出编译后的内容
+     * @param $tmplate //模板文件
+     * @param array $data //数据
+     * @param null $cache_id    //缓存标识符， 如果设置则生成单独的标识符
+     * @param null $compile_id  //编译标识符
+     * @return string   //返回编译后的模板内容
+     */
+    function render($tmplate,$data = array(),$cache_id = NULL,$compile_id = NULL){
+        if(!empty($data)){
+            $this->_smarty->assign($data);
+        }
+        $this->_smarty->assign($data);
+        return $this->_smarty->fetch($tmplate,$cache_id,$compile_id);
+    }
+
+    function display($tmplate,$data,$cache_id = NULL,$compile_id = NULL){
+        if(!empty($data)){
+            $this->_smarty->assign($data);
+        }
+        //页面执行时间
+        $this->_smarty->assign('elapsed_time',$this->CI->benchmark->elapsed_time('total_execution_time_start', 'total_execution_time_end'),TRUE);
+        //耗用内存大小
+        $memory = (!function_exists('memory_get_usage')) ? '0' : round(memory_get_usage()/1024/1024, 2) . 'MB';
+        $this->_smarty->assign('memory_usage',$memory,TRUE);
+        $this->_smarty->display($tmplate,$cache_id,$compile_id);
+    }
+}

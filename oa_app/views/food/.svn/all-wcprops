@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/oa/!svn/ver/6/oa_app/views/food
+END
+food_total_window.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/oa/!svn/ver/2/oa_app/views/food/food_total_window.tpl
+END
+food_menu_window.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/oa/!svn/ver/2/oa_app/views/food/food_menu_window.tpl
+END
+food_modify_window.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/oa/!svn/ver/6/oa_app/views/food/food_modify_window.tpl
+END
+food_today.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/oa/!svn/ver/1/oa_app/views/food/food_today.tpl
+END
+food_menu.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/oa/!svn/ver/2/oa_app/views/food/food_menu.tpl
+END
+food_cost.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/oa/!svn/ver/2/oa_app/views/food/food_cost.tpl
+END
+food_manage.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/oa/!svn/ver/2/oa_app/views/food/food_manage.tpl
+END
+food_order_record.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/oa/!svn/ver/3/oa_app/views/food/food_order_record.tpl
+END

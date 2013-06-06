@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/oa/!svn/ver/1/demo_app/config
+END
+migration.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/oa/!svn/ver/1/demo_app/config/migration.php
+END
+doctypes.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/oa/!svn/ver/1/demo_app/config/doctypes.php
+END
+database.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/oa/!svn/ver/1/demo_app/config/database.php
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/oa/!svn/ver/1/demo_app/config/config.php
+END
+autoload.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/oa/!svn/ver/1/demo_app/config/autoload.php
+END
+foreign_chars.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/oa/!svn/ver/1/demo_app/config/foreign_chars.php
+END
+twig.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/oa/!svn/ver/1/demo_app/config/twig.php
+END
+mimes.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/oa/!svn/ver/1/demo_app/config/mimes.php
+END
+constants.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/oa/!svn/ver/1/demo_app/config/constants.php
+END
+user_agents.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/oa/!svn/ver/1/demo_app/config/user_agents.php
+END
+smarty.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/oa/!svn/ver/1/demo_app/config/smarty.php
+END
+routes.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/oa/!svn/ver/1/demo_app/config/routes.php
+END
+profiler.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/oa/!svn/ver/1/demo_app/config/profiler.php
+END
+hooks.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/oa/!svn/ver/1/demo_app/config/hooks.php
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/oa/!svn/ver/1/demo_app/config/index.html
+END
+smileys.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/oa/!svn/ver/1/demo_app/config/smileys.php
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/oa/!svn/ver/1/oa_app/views/public
+END
+head.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/oa/!svn/ver/1/oa_app/views/public/head.tpl
+END
+menu.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/oa/!svn/ver/1/oa_app/views/public/menu.tpl
+END
+login_footer.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/oa/!svn/ver/1/oa_app/views/public/login_footer.tpl
+END
+header.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/oa/!svn/ver/1/oa_app/views/public/header.tpl
+END
+breadcrumbs.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/oa/!svn/ver/1/oa_app/views/public/breadcrumbs.tpl
+END
+sidebar.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/oa/!svn/ver/1/oa_app/views/public/sidebar.tpl
+END
+footer.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/oa/!svn/ver/1/oa_app/views/public/footer.tpl
+END
