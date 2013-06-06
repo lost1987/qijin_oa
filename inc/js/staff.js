@@ -1,7 +1,5 @@
 $(function(){
 
-     $.util.effect.floatTop({element:$("div .title").eq(0)});
-
      $("#birthday").datepicker({changeMonth:true,changeYear:true,yearRange:"1930:2100"});
      $("#join_time").datepicker({changeMonth:true,changeYear:true,yearRange:"1930:2100"});
 

@@ -16,6 +16,8 @@ themes.dialog_tips = '<div class="dialog-ok" title="提示"><p>#content#</p></di
             $(this).siblings().children('p').removeClass('display');
             $(this).siblings().children().find('.plus').removeClass('plus').addClass('minus');
         });
+
+        $.util.effect.floatTop({element:$("div .title").eq(0)});
     });
 
 

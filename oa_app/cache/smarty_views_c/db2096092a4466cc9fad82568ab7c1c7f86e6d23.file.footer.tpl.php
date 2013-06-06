@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-06-06 11:45:06
+<?php /* Smarty version Smarty-3.1.13, created on 2013-06-06 16:31:14
          compiled from "oa_app/views/public/footer.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:11785289151b005c2ef2b53-73095416%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:195326254351b048d2989019-56137541%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '11785289151b005c2ef2b53-73095416',
+  'nocache_hash' => '195326254351b048d2989019-56137541',
   'function' => 
   array (
   ),
@@ -24,9 +24,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51b005c2f06772_26890064',
+  'unifunc' => 'content_51b048d299c5d6_66356735',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51b005c2f06772_26890064')) {function content_51b005c2f06772_26890064($_smarty_tpl) {?><div class="footer">Copyright © 2013 <a href="http://www.qijinsoft.com/" target="_blank" title="齐进网络">齐进网络</a> All rights reserved.</div>
+<?php if ($_valid && !is_callable('content_51b048d299c5d6_66356735')) {function content_51b048d299c5d6_66356735($_smarty_tpl) {?><div class="footer">Copyright © 2013 <a href="http://www.qijinsoft.com/" target="_blank" title="齐进网络">齐进网络</a> All rights reserved.</div>
 </div>
 <?php echo (($tmp = @$_smarty_tpl->tpl_vars['footer_javascript']->value)===null||$tmp==='' ? '' : $tmp);?>
 

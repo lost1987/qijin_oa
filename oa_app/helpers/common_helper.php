@@ -444,3 +444,16 @@ function page_title($page_title = ''){
 function return_ajax($data){
     echo json_encode($data);exit;
 }
+
+/**
+ * @param $date 例如 2013年06月15日
+ */
+function dateCN_to_time($date){
+    $formatted_date = preg_replace('/[^0-9]/','-',$date);
+    return strtotime($formatted_date);
+}
+
+function time_to_dateCN($time){
+    $date = Date('Y年m月d日',$time);
+    return $date;
+}

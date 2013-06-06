@@ -56,7 +56,16 @@ class model_hr extends CI_Model{
     }
 
     function user_save(Array $fields){
-        return $this->db->insert("common_users",$fields);
+        return $this->db->insert('common_users',$fields);
+    }
+
+    function user_update(Array $fields,$uid){
+        return $this->db->where('uid',$uid)->update('common_users',$fields);
+    }
+
+    function user_delete($uid){
+        $params = array('deleted'=>1);
+        return $this->db->where('uid',$uid)->update('common_users',$params);
     }
 
     function sector_list(){

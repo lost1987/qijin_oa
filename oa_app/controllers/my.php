@@ -6,11 +6,8 @@ class My extends CI_Controller {
         parent::__construct();
         is_login_redirect();
         load_library(array('jquery-ui'));
-//        add_js('inc/js/power.js');
+        add_js('inc/js/util.js');
         add_css('inc/css/style.css');
-        $css_js = css_js_render();
-        $meta = load_meta();
-        $this->output_data = array_merge($this->output_data,$css_js,array('header_meta'=>$meta));
 //        $this->load->model('Model_user');
     }
 

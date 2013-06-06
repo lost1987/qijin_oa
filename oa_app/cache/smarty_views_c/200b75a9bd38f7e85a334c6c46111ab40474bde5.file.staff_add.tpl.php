@@ -1,31 +1,31 @@
-<?php /* Smarty version Smarty-3.1.13, created on 2013-06-06 11:45:06
+<?php /* Smarty version Smarty-3.1.13, created on 2013-06-06 16:31:14
          compiled from "oa_app/views/hr/staff_add.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:26701967551b005c2e4dde7-49608727%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:176438966851b048d28dbe40-82036924%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '200b75a9bd38f7e85a334c6c46111ab40474bde5' => 
     array (
       0 => 'oa_app/views/hr/staff_add.tpl',
-      1 => 1370413043,
+      1 => 1370500711,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '26701967551b005c2e4dde7-49608727',
+  'nocache_hash' => '176438966851b048d28dbe40-82036924',
   'function' => 
   array (
   ),
   'variables' => 
   array (
-    'educational_background_select' => 0,
-    'departments' => 0,
+    'education' => 0,
     'element' => 0,
+    'departments' => 0,
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.13',
-  'unifunc' => 'content_51b005c2e7a940_84746931',
+  'unifunc' => 'content_51b048d2914551_64623803',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_51b005c2e7a940_84746931')) {function content_51b005c2e7a940_84746931($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("public/head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+<?php if ($_valid && !is_callable('content_51b048d2914551_64623803')) {function content_51b048d2914551_64623803($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("public/head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
 <div class="warp">
 <?php echo $_smarty_tpl->getSubTemplate ("public/sidebar.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
@@ -70,8 +70,19 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     </p>
                     <p>
                         <label for="educational_background">学　　历：</label>
-                        <?php echo $_smarty_tpl->tpl_vars['educational_background_select']->value;?>
-
+                        <select name = "educational_background" id="educational_background">
+                            <?php  $_smarty_tpl->tpl_vars['element'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['element']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['education']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+ $_smarty_tpl->tpl_vars['smarty']->value['foreach']["foo"]['iteration']=0;
+foreach ($_from as $_smarty_tpl->tpl_vars['element']->key => $_smarty_tpl->tpl_vars['element']->value){
+$_smarty_tpl->tpl_vars['element']->_loop = true;
+ $_smarty_tpl->tpl_vars['smarty']->value['foreach']["foo"]['iteration']++;
+?>
+                              <option value="<?php echo $_smarty_tpl->getVariable('smarty')->value['foreach']['foo']['iteration'];?>
+"><?php echo $_smarty_tpl->tpl_vars['element']->value;?>
+</option>
+                            <?php } ?>
+                        </select>
                     </p>
                     <p>
                         <label for="specialty">专　　业：</label>

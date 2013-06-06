@@ -37,7 +37,11 @@
                     </p>
                     <p>
                         <label for="educational_background">学　　历：</label>
-                        {$educational_background_select}
+                        <select name = "educational_background" id="educational_background">
+                            {foreach from = $education item = element name="foo"}
+                              <option value="{$smarty.foreach.foo.iteration}">{$element}</option>
+                            {/foreach}
+                        </select>
                     </p>
                     <p>
                         <label for="specialty">专　　业：</label>
